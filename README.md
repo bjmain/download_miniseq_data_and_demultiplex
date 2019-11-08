@@ -1,11 +1,11 @@
-# download_miniseq_data_and_demultiplex
+## download miniseq data and demultiplex
 
 #### bs list runs
 #### bs download run -i 17903NNNN -o fatimaseq2
 #### 
 #### bcl2fastq -R path/to/bcl_dir --sample-sheet Import_BiologicalSamples_fatimaseq2.csv -o fastqs
 #### 
-# PhiX is not indexed, so we need to map the undetermined reads to PhiX to get the percent phiX
+##### PhiX is not indexed, so we need to map the undetermined reads to PhiX to get the percent phiX
 #### bwa mem phiX.fa R1.fq R2.fq > phix.sam
 
 
