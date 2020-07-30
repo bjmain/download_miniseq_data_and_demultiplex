@@ -1,7 +1,9 @@
 ## download miniseq data and demultiplex
-
-#### bs list runs
-#### bs download run -i 17903NNNN -o fatimaseq2
+wget "https://api.bintray.com/content/basespace/BaseSpaceCLI-EarlyAccess-BIN/latest/\$latest/amd64-linux/bs?bt_package=latest" -O $HOME/bin/bs
+chmod u+x bs
+./bs auth
+#### ./bs list runs
+#### ./bs download run -i 17903NNNN -o fatimaseq2
 #### 
 #### bcl2fastq -R path/to/bcl_dir --sample-sheet Import_BiologicalSamples_fatimaseq2.csv -o fastqs
 #### 
