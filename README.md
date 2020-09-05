@@ -3,9 +3,9 @@ wget "https://api.bintray.com/content/basespace/BaseSpaceCLI-EarlyAccess-BIN/lat
 chmod u+x bs
 ./bs auth
 # If your samples were successfully demultiplexed:
-# conda activate basespace
-# ./bs list projects
-# ./bs download project -i #####2898 -o ~/projectname/raw
+### conda activate basespace
+### ./bs list projects
+### ./bs download project -i #####2898 -o ~/projectname/raw
 # To demultiplex locally (not on BaseSpace):
 #### ./bs list runs
 #### ./bs download run -i 17903NNNN -o fatimaseq2
