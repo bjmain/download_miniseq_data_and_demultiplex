@@ -4,11 +4,11 @@ chmod u+x bs
 ./bs auth
 # If your samples were successfully demultiplexed:
 ### conda activate basespace
-### ./bs list projects
-### ./bs download project -i #####2898 -o ~/projectname/raw
+### ~/bin/bs list projects
+### ~/bin/bs download project -i #####2898 -o ~/projectname/raw
 # To demultiplex locally (not on BaseSpace):
-#### ./bs list runs
-#### ./bs download run -i 17903NNNN -o fatimaseq2
+#### ~/bin/bs list runs
+#### ~/bin/bs download run -i 17903NNNN -o fatimaseq2
 #### 
 #### bcl2fastq -R path/to/bcl_dir --sample-sheet Import_BiologicalSamples_fatimaseq2.csv -o fastqs
 #### 
