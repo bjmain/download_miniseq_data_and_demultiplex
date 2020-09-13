@@ -6,6 +6,7 @@ chmod u+x bs
 ### conda activate basespace
 ### ~/bin/bs list projects
 ### ~/bin/bs download project -i #####2898 -o ~/projectname/raw
+### ~/bin/bs download project -i ####82897 -o . --extension=fastq.gz
 # To demultiplex locally (not on BaseSpace):
 #### ~/bin/bs list runs
 #### ~/bin/bs download run -i 17903NNNN -o fatimaseq2
